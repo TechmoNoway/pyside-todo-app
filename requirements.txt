@@ -1,0 +1,5 @@
+PySide6>=6.7.0
+qtawesome>=1.3.0        # icon
+SQLAlchemy>=2.0.0       # ORM for SQLite
+pytest>=8.0.0           # (optional) testing
+pyinstaller>=6.0.0      # (optional) build .exe
