@@ -12,6 +12,8 @@ class MainWindow(QMainWindow):
 
         container = QWidget()
         layout = QHBoxLayout()
+        layout.setContentsMargins(0, 0, 0, 0)
+        layout.setSpacing(0)
 
         self.sidebar = Sidebar()
         self.content = Content()

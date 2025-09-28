@@ -7,7 +7,8 @@ class Content(QWidget):
     def __init__(self):
         super().__init__()
         layout = QVBoxLayout()
-        
+        layout.setContentsMargins(0, 0, 0, 0)
+
         # input add task
         self.input = QLineEdit()
         self.add_btn = QPushButton("Add Task")

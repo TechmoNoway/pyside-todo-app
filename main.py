@@ -8,6 +8,9 @@ if __name__ == "__main__":
     init_db()
     app = QApplication(sys.argv)
     window = MainWindow()
+
+    window.setFocus()
+
     window.show()
     sys.exit(app.exec())
 
