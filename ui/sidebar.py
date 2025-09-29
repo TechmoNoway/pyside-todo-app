@@ -97,7 +97,6 @@ class Sidebar(QWidget):
         profile_widget.setLayout(profile_layout)
         return profile_widget
 
-
     def create_menu_button(self, icon, text, count=None):
         btn = QPushButton()
         btn_layout = QHBoxLayout()
@@ -146,7 +145,7 @@ class Sidebar(QWidget):
                 border-radius: 5px;
             }
             QPushButton:pressed {
-                background-color: #555;
+                background-color: #333332;
             }
         """)
 
@@ -187,8 +186,8 @@ class Sidebar(QWidget):
 
     def setup_styles(self):
         self.setStyleSheet("""
-            QWidget {
-                background-color: transparent;
+            Sidebar {
+                background-color: #232323;
                 color: white;
                 font-family: 'Segoe UI';
             }

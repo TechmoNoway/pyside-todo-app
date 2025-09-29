@@ -62,7 +62,7 @@ class TaskTitleSearchBox(QWidget):
 
         container.setStyleSheet("""
             QWidget {
-                background-color: rgba(255, 255, 255, 0.05);
+                background-color: transparent;
                 border-top: 1px solid #444;
                 border-left: 1px solid #444;
                 border-right: 1px solid #444;
